@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(182, 40, 109, 0.626);
+    font-family: 'NeueMachina-Black', sans-serif;
+}
+
+h1 {
+    color: rgb(202, 24, 24);
+}
+
+h2 {
+    color: rgb(152, 30, 166);
+}
+
+p {
+    color: rgb(91, 24, 214);
+    font-family: 'Gabriola';
+    font-size: 25px;
+}
+
+.bold {
+    font-size: 40px;
+}
+
+@font-face {
+    font-family: 'NeueMachina-Black';
+    src: url('fonts/neuemachina-black.eot');
+    src: url('fonts/neuemachina-black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/neuemachina-black.woff2') format('woff2'),
+        url('fonts/neuemachina-black.woff') format('woff'),
+        url('fonts/neuemachina-black.ttf') format('truetype'),
+        url('fonts/neuemachina-black.svg#neuemachina-black') format('svg');
+}
+
+@font-face {
+    font-family: 'Gabriola';
+    src: url('../fonts/gabriola.eot');
+    src: url('../fonts/gabriola.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/gabriola.woff2') format('woff2'),
+        url('../fonts/gabriola.woff') format('woff'),
+        url('../fonts/gabriola.ttf') format('truetype'),
+        url('../fonts/gabriola.svg#gabriola') format('svg');
+}
